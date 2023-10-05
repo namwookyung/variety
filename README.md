@@ -1,2 +1,0 @@
-# variety
-community concept portfolio
