@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function login() {
   return (
-    <div className="bg-dark">
+    <div className="bg-secondary">
       <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
           <main>
@@ -23,8 +23,10 @@ export default function login() {
                           <input className="form-control" id="inputPassword" type="password" placeholder="Password" />
                           <label htmlFor="inputPassword">비밀번호</label>
                         </div>
-                        <Link className="btn btn-warning" href="/join">회원가입</Link>
-                        <Link className="btn btn-primary" href="/main">로그인</Link>
+                        <div style={{textAlign:'right'}}>
+                          <Link className="btn btn-secondary" style={{marginRight:'5px'}} href="/join">회원가입</Link>
+                          <Link className="btn btn-primary" href="/main">로그인</Link>
+                        </div>
                       </form>
                     </div>
                     <div className="card-footer text-center py-3">
