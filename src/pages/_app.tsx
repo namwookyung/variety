@@ -21,3 +21,4 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     </>
   );
 }
+// TO-DO 로그인 상태별 components 숨김/보임 처리(token으로 조건)
