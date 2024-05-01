@@ -30,7 +30,7 @@ export default function login() {
                       </form>
                     </div>
                     <div className="card-footer text-center py-3">
-                      <div className="small" style={{color:"gray"}}>Copyright &copy; Wookyung Nam 2023</div>
+                      <div className="small" style={{color:"gray"}}>Copyright &copy; Wookyung Nam 2024</div>
                     </div>
                   </div>
                 </div>
