@@ -1,4 +1,4 @@
-import { faAngleDown, faBars, faBriefcase, faClapperboard, faCoins, faComments, faFaceSmile, faGamepad, faList, faListCheck, faPersonRunning, faUserGear } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown, faBars, faBriefcase, faComments, faList, faListCheck, faUserGear } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
@@ -27,49 +27,19 @@ export default function sidebar() {
                             <div className="sb-nav-link-icon">
                                 <FontAwesomeIcon icon={faBars} />
                             </div>
-                            전체
+                            자유게시판
                         </Link>
-                        <Link className="nav-link" href="/board/life">
+                        <Link className="nav-link" href="/qna">
                             <div className="sb-nav-link-icon">
                                 <FontAwesomeIcon icon={faComments} />
                             </div>
-                            일상/취미
+                            Q & A
                         </Link>
-                        <Link className="nav-link" href="/board/work">
+                        <Link className="nav-link" href="/info">
                             <div className="sb-nav-link-icon">
                                 <FontAwesomeIcon icon={faBriefcase} />
                             </div>
-                            취업/직장
-                        </Link>
-                        <Link className="nav-link" href="/board/game">
-                            <div className="sb-nav-link-icon">
-                                <FontAwesomeIcon icon={faGamepad} />
-                            </div>
-                            게임
-                        </Link>
-                        <Link className="nav-link" href="/board/enter">
-                            <div className="sb-nav-link-icon">
-                                <FontAwesomeIcon icon={faClapperboard} />
-                            </div>
-                            연예/방송
-                        </Link>
-                        <Link className="nav-link" href="/board/finance">
-                            <div className="sb-nav-link-icon">
-                                <FontAwesomeIcon icon={faCoins} />
-                            </div>
-                            금융
-                        </Link>
-                        <Link className="nav-link" href="/board/sports">
-                            <div className="sb-nav-link-icon">
-                                <FontAwesomeIcon icon={faPersonRunning} />
-                            </div>
-                            스포츠
-                        </Link>
-                        <Link className="nav-link" href="/board/etc">
-                            <div className="sb-nav-link-icon">
-                                <FontAwesomeIcon icon={faFaceSmile} />
-                            </div>
-                            기타
+                            정보 공유
                         </Link>
                         <div className="sb-sidenav-menu-heading">Setting</div>
                         <a className="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseUsers" aria-expanded="false" aria-controls="collapseUsers">
